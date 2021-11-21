@@ -57,7 +57,7 @@ export default class Model extends StaticModel {
   }
 
   getPrimaryKey() {
-    return this[this.primaryKey()]
+    return this.data[this.primaryKey()]
   }
 
   custom(...args) {

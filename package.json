@@ -1,7 +1,7 @@
 {
-  "name": "vue-api-query",
+  "name": "vue-api-query-updated",
   "version": "0.0.0-development",
-  "description": "💎 Elegant and simple way to build requests for REST API",
+  "description": "Updated fork",
   "main": "build/index.js",
   "types": "./index.d.ts",
   "files": [
@@ -28,7 +28,7 @@
     "builder",
     "laravel"
   ],
-  "author": "Robson Tenório",
+  "author": "mayeut",
   "contributors": [
     {
       "name": "João Pedro Antunes Silva",

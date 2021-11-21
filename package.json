@@ -13,7 +13,8 @@
     "lint": "eslint --ext .js .",
     "test": "jest",
     "test:watch": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "vue-api-query-updated",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Updated fork",
   "main": "build/index.js",
   "types": "./index.d.ts",

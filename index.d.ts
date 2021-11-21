@@ -184,7 +184,7 @@ declare class StaticModel {
    * @see {@link https://robsontenorio.github.io/vue-api-query/api/query-builder-methods#page|API Reference}
    * @see {@link https://robsontenorio.github.io/vue-api-query/building-the-query#paginating|Building the Query}
    */
-  static page<M extends typeof Model> (this: M, number: number): InstanceType<M>
+  static page<M extends typeof Model> (this: M, number: number | string): InstanceType<M>
 
   /**
    * Set the page limit.

@@ -1,5 +1,6 @@
 .idea
 node_modules
 coverage
+build
 yarn-error.log
 docker-compose.yml

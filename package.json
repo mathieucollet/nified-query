@@ -1,7 +1,7 @@
 {
-  "name": "vue-api-query-updated",
-  "version": "0.0.3",
-  "description": "Updated fork",
+  "name": "nified-query",
+  "version": "1.0.0",
+  "description": "Query package",
   "main": "build/index.js",
   "types": "./index.d.ts",
   "files": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieucollet/vue-api-query.git"
+    "url": "git+https://github.com/mathieucollet/nified-query.git"
   },
   "keywords": [
     "vue",
@@ -25,8 +25,7 @@
     "api",
     "rest",
     "query",
-    "builder",
-    "laravel"
+    "builder"
   ],
   "author": "mayeut",
   "contributors": [
@@ -36,7 +35,7 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mathieucollet/vue-api-query#readme",
+  "homepage": "https://github.com/mathieucollet/nified-query#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",

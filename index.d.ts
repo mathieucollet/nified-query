@@ -541,7 +541,7 @@ export class Model extends StaticModel {
    * @see {@link https://robsontenorio.github.io/vue-api-query/api/query-builder-methods#page|API Reference}
    * @see {@link https://robsontenorio.github.io/vue-api-query/building-the-query#paginating|Building the Query}
    */
-  page (number: number): this
+  page (number: number | string): this
 
   /**
    * Set the page limit.

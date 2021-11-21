@@ -194,8 +194,8 @@ var Builder = /*#__PURE__*/function () {
   }, {
     key: "page",
     value: function page(value) {
-      if (!Number.isInteger(value)) {
-        throw new Error('The VALUE must be an integer on page() method.');
+      if (!Number.isInteger(value) && typeof value !== 'string') {
+        throw new Error('The VALUE must be an integer or a string on page() method.');
       }
 
       this.pageValue = value;
